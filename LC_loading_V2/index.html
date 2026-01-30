@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<title>Loading Screen V2</title>
+<link rel='stylesheet' href='style.css'>
+</head>
+<body>
+
+<video autoplay muted loop id="bgVideo">
+  <source src="video/background.mp4" type="video/mp4">
+</video>
+
+<audio autoplay loop>
+  <source src="music/song.mp3" type="audio/mpeg">
+</audio>
+
+<div class="overlay">
+  <img id="mainLogo" src="images/logo1.png" class="main-logo">
+
+  <h1 id="serverName">Leo's Customs</h1>
+  <p id="tipText">Welcome to the server!</p>
+
+  <div class="progress-bar">
+    <div class="progress"></div>
+  </div>
+</div>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
